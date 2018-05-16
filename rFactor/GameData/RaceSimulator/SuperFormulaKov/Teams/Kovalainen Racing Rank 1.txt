@@ -1,0 +1,2 @@
+Name = Kovalainen Racing Rank 1
+Reliability = 2.5

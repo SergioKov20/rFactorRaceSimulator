@@ -1,0 +1,2 @@
+Name = Equipe de France Rank 1
+Reliability = 3

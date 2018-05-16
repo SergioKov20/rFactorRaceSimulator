@@ -1,0 +1,6 @@
+Name = David Cedillo
+Number = 8
+Nationality = ESP
+Team = Action is Coming Rank 3
+Performance = 0.11 >> 5.4 >> 33.07 >> 59.55 >> 0.88
+AvgCrash = 12.22

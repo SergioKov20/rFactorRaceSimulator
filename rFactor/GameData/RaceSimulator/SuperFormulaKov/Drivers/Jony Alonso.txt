@@ -1,0 +1,6 @@
+Name = Jony Alonso
+Number = 75
+Nationality = ESP
+Team = LaCrew Massi Racing Rank 3
+Performance = 0.03 >> 2.4 >> 17.99 >> 76.81 >> 2.8
+AvgCrash = 7.21

@@ -1,0 +1,6 @@
+Name = Alberto Rodriguez
+Number = 19
+Nationality = ESP
+Team = Alberto BVB Team Rank 5
+Performance = 0.01 >> 0.16 >> 1.36 >> 4.13 >> 94.35
+AvgCrash = 5

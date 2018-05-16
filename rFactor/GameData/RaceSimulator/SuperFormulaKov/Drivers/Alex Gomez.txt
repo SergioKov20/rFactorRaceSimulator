@@ -1,0 +1,6 @@
+Name = Alex Gomez
+Number = 11
+Nationality = ESP
+Team = SLDS Racing Rank 3
+Performance = 0.04 >> 3.45 >> 10.19 >> 83.82 >> 2.50
+AvgCrash = 4.91

@@ -1,0 +1,6 @@
+Name = Ruben Llorente
+Number = 17
+Nationality = ESP
+Team = Action is Coming Rank 3
+Performance = 0.01 >> 2.49 >> 12.66 >> 81.07 >> 3.77
+AvgCrash = 14.66

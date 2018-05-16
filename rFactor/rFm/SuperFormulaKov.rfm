@@ -1,0 +1,200 @@
+// Game/Season Info:
+Mod Name = SuperFormulaKov
+Track Filter   = *  // this filter allows any track
+Vehicle Filter = OR: SF2015 SFEXTRA SFGP2 SFFE SFTEST // this filter allows any vehicle
+SafetyCar = CIVIC_SC.veh
+
+Matchmaker = match.rfactor.net
+Matchmaker TCP Port = 39001
+Matchmaker UDP Port = 39002
+Loading Bar Color = 16750848
+RaceCast Location = racecast.rfactor.net
+
+Max Opponents = 36   // maximum opponents in practice/quick race/grand prix/championship
+Min Championship Opponents = 3 // minimum opponents in championship only
+
+Season = SuperFormulaKov
+{
+  FullSeasonName = SuperFormulaKov SLDS Test Season
+  Vehicle Filter = SF2015
+  Max Opponents = 27
+  Min Championship Opponents = 27
+
+  SceneOrder
+  {
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+    Mills_Short
+    Toban_Short
+  }
+}
+
+ConfigOverrides
+{
+  // Remove the comment marks "//" and set the appropriate dir if you wish to override where 
+  //   this rFm looks for that data.
+  // At this time, I do not see a reasonable case for changing GameDir, SaveDir or LogDir
+  // Because of this new capability, I would no longer make changes to the Config.ini file 
+  //   except for debug reasons.
+
+  SoundDir=GAMEDATA\SOUNDS\SuperFormula2015
+  VehiclesDir=GAMEDATA\VEHICLES\SuperFormulaKov
+  DriversDir=GAMEDATA\Talent\SuperFormula2015
+  ShadersDir=GAMEDATA\Shared\SuperFormula2015
+  MusicDir=MUSIC\SuperFormula2015
+}
+
+DefaultScoring
+{
+  RacePitKPH = 80
+  NormalPitKPH = 80
+  Practice1Day = Friday
+  Practice1Start = 10:00
+  Practice1Duration = 60
+  Practice2Day = Friday
+  Practice2Start = 14:00
+  Practice2Duration = 60
+  Practice3Day = Saturday
+  Practice3Start = 10:00
+  Practice3Duration = 60
+  QualifyDay = Saturday
+  QualifyStart = 15:00
+  QualifyDuration = 20
+  WarmupDay = Sunday
+  WarmupStart = 10:00
+  WarmupDuration = 15
+  RaceDay = Sunday
+  RaceStart = 14:00
+  RaceLaps = 60
+  RaceTime = 120
+}
+
+// Money and experience accumulation (mostly multipliers for hard-coded values
+// which have various factors taken into account like number of competitors)
+StartingMoney = 5000000      // always start with zero experience, but you need some money
+StartingVehicle = REAL_10.veh       // randomly chooses one free vehicle from this list
+DriveAnyUnlocked = 1         // 0 = must own to drive, 1 = must be unlocked to drive, 2 = drive anything
+BaseCreditMult = 1.0         // base which is multiplied by all the other multipliers
+LapMoneyMult = 1.0           // laps completed (based roughly on expected lap times)
+LapExpMult = 1.0
+FineMoneyMult = 1.0          // fines
+FineExpMult = 0.0
+PoleSingleMoneyMult = 1.0    // pole positions in single player
+PoleSingleExpMult = 1.0
+PoleCareerMoneyMult = 1.0    // pole positions in career mode
+PoleCareerExpMult = 1.0
+PoleMultiMoneyMult = 1.0     // pole positions in multiplayer
+PoleMultiExpMult = 1.0
+WinSingleMoneyMult = 1.0     // wins in single player
+WinSingleExpMult = 1.0
+WinCareerMoneyMult = 1.0     // wins in career mode
+WinCareerExpMult = 1.0
+WinMultiMoneyMult = 1.0      // wins in multiplayer
+WinMultiExpMult = 1.0
+PointsSingleMoneyMult = 1.0  // points in single player
+PointsSingleExpMult = 1.0
+PointsCareerMoneyMult = 1.0  // points in career mode
+PointsCareerExpMult = 1.0
+PointsMultiMoneyMult = 1.0   // points in multiplayer
+PointsMultiExpMult = 1.0
+
+ParcFerme = 0
+FormationSpeedKPH = 150
+MinimumYellowLaps = 2
+RandomYellowLaps = 1
+ClosePits = 0
+AdditivePenalties = 0
+LapsToServePenalty = 4
+ParcFermeFuel = 1.0   //nincs vissza adva idõmérõrõn elfogyasztott benzina futamra (dedicated Plr:MULTI Freesettings=251)
+ParcFermeTires = 0
+ParcFermeSetup = 0
+BlueFlags = 3
+SafetyCarRoadMult=0.75
+SafetyCarOvalMult=0.6
+SpinRoadSeverity=0.04
+SpinOvalSeverity=0.04
+PitSpeedingAllowance = 0.5
+PrivateQualifying = 0
+FreezeOrder = 1
+FinishUnderCaution = 0
+
+// Season scoring info
+SeasonScoringInfo
+{
+FirstPlace = 25
+SecondPlace = 20
+ThirdPlace = 18
+FourthPlace = 15
+FifthPlace = 12
+SixthPlace = 10
+SeventhPlace = 9
+EighthPlace = 8
+NinthPlace = 7
+Place10 = 6
+Place11 = 5
+Place12 = 4
+Place13 = 3
+Place14 = 2
+Place15 = 1
+}
+
+SceneOrder
+{
+  Toban_Long
+  Toban_Short
+  Mills_Long
+  Mills_Short
+  Orchard_Lake_Oval
+  Orchard_Lake_RC
+  S_Heights_short
+  Joesville_Speedway
+}
+
+// Pitstop locations in order from front to back, with the number
+// of vehicles sharing each pit ... if the order needs to be
+// reversed on an individual track, set "ReversePitOrder=1" in
+// the track-specific GDB file.
+// These are now "pit group" names, not necessarily team names.
+// In the VEH file, the pit group defaults to the team name but
+// can be overridden by defining "PitGroup=<name>".
+PitOrderByQualifying = false    // whether to set the pit order in the race by qualifying results
+PitGroupOrder
+{
+  // format is: PitGroup = <# of vehicles sharing pit>, <groupname>
+  PitGroup = 2, Group1
+  PitGroup = 2, Group2
+  PitGroup = 2, Group3
+  PitGroup = 2, Group4
+  PitGroup = 2, Group5
+  PitGroup = 2, Group6
+  PitGroup = 2, Group7
+  PitGroup = 2, Group8
+  PitGroup = 2, Group9
+  PitGroup = 2, Group10
+  PitGroup = 2, Group11
+  PitGroup = 2, Group12
+  PitGroup = 2, Group13
+  PitGroup = 2, Group14
+  PitGroup = 2, Group15
+  PitGroup = 2, Group16
+  PitGroup = 2, Group17
+  PitGroup = 2, Group18
+  PitGroup = 2, Group19
+  PitGroup = 2, Group20
+}

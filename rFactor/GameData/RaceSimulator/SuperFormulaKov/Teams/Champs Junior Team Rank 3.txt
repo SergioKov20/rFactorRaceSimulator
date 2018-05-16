@@ -1,0 +1,2 @@
+Name = Champs Junior Team Rank 3
+Reliability = 7

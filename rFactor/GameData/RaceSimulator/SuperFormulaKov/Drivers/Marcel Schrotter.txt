@@ -1,0 +1,6 @@
+Name = Marcel Schrotter
+Number = 23
+Nationality = GER
+Team = Jackass Racing Rank 1
+Performance = 61.08 >> 48.58 >> 1.30 >> 0.03 >> 0.01
+AvgCrash = 4.21

@@ -1,0 +1,6 @@
+Name = Enric Gutierrez
+Number = 25
+Nationality = ESP
+Team = Alberto BVB Team Rank 5
+Performance = 0.01 >> 0.16 >> 2.36 >> 4.22 >> 93.26
+AvgCrash = 4.11

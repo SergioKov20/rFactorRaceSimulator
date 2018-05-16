@@ -1,0 +1,6 @@
+Name = Billy van Eerde
+Number = 29
+Nationality = AUS
+Team = JM43 Racing Academy Rank 2
+Performance = 30.69 >> 66.21 >> 3.01 >> 0.07 >> 0.02
+AvgCrash = 5.55

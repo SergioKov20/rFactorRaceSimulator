@@ -1,0 +1,6 @@
+Name = Jack Miller
+Number = 43
+Nationality = AUS
+Team = Jackass Racing Rank 1
+Performance = 93.43 >> 6.22 >> 0.22 >> 0.12 >> 0.01
+AvgCrash = 7.43

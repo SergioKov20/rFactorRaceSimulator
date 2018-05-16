@@ -1,0 +1,6 @@
+Name = Jules Cluzel
+Number = 16
+Nationality = FRA
+Team = Equipe de France Rank 1
+Performance = 90.55 >> 8.01 >> 1.40 >> 0.03 >> 0.01
+AvgCrash = 7.46

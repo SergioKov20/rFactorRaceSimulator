@@ -1,0 +1,6 @@
+Name = Adria Garcia-Fraile
+Number = 33
+Nationality = ESP
+Team = Skadi Racing Rank 4
+Performance = 0.01 >> 1.00 >> 2.99 >> 50.77 >> 45.23
+AvgCrash = 4.5

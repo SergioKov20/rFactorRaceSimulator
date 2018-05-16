@@ -1,0 +1,6 @@
+Name = Niko Kari
+Number = 24
+Nationality = FIN
+Team = Kovalainen Academy Rank 2
+Performance = 40.71 >> 56.19 >> 3.03 >> 0.06 >> 0.01
+AvgCrash = 6.12

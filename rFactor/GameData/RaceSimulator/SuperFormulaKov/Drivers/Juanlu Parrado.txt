@@ -1,0 +1,6 @@
+Name = Juanlu Parrado
+Number = 95
+Nationality = ESP
+Team = F1Champs Racing Rank 3
+Performance = 1.01 >> 9.45 >> 75.99 >> 13.26 >> 0.29
+AvgCrash = 7.51

@@ -1,0 +1,6 @@
+Name = Sergio Kov
+Number = 20
+Nationality = ESP
+Team = SLDS Racing Rank 3
+Performance = 0.20 >> 7.35 >> 40.50 >> 51.20 >> 0.75
+AvgCrash = 8.43

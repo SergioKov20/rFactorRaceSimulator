@@ -1,0 +1,6 @@
+Name = Heikki Kovalainen
+Number = 1
+Nationality = FIN
+Team = Kovalainen Racing Rank 1
+Performance = 93.25 >> 6.12 >> 0.56 >> 0.06 >> 0.01
+AvgCrash = 3.75

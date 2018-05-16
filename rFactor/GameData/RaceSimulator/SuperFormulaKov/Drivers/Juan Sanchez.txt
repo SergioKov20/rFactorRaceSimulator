@@ -1,0 +1,6 @@
+Name = Juan Sanchez
+Number = 93
+Nationality = ESP
+Team = F1Champs Racing Rank 3
+Performance = 1.04 >> 12.22 >> 80.17 >> 5.69 >> 0.88
+AvgCrash = 6.26

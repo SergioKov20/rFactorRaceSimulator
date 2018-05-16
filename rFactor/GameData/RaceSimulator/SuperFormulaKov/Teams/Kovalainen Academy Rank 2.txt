@@ -1,0 +1,2 @@
+Name = Kovalainen Academy Rank 2
+Reliability = 3.5

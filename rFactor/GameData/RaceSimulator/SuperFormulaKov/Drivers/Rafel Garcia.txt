@@ -1,0 +1,6 @@
+Name = Rafel Garcia
+Number = 77
+Nationality = ESP
+Team = Champs Junior Team Rank 3
+Performance = 0.20 >> 4.45 >> 41.74 >> 53.28 >> 0.33
+AvgCrash = 11.74

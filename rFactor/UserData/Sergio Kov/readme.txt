@@ -1,0 +1,1 @@
+Para resetear un campeonato, borra el campeonato acabado, y copia, pega y renombra el backup al nombre del campeonato

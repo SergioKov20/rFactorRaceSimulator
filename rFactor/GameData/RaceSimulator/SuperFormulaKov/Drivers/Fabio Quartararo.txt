@@ -1,0 +1,6 @@
+Name = Fabio Quartararo
+Number = 40
+Nationality = FRA
+Team = Equipe de France Rank 1
+Performance = 58.10 >> 50.46 >> 1.40 >> 0.03 >> 0.01
+AvgCrash = 6.60
