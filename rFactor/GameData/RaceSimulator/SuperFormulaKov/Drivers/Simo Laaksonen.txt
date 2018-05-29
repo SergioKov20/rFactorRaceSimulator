@@ -1,5 +1,5 @@
 Name = Simo Laaksonen
-Number = 66
+Number = 18
 Nationality = FIN
 Team = Kovalainen Academy Rank 2
 Performance = 32.22 >> 64.17 >> 3.52 >> 0.08 >> 0.01

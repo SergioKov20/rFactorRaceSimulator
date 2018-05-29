@@ -94,7 +94,8 @@ public class Program extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         jFrame1.setTitle("rFactor Race Simulator v1.0 - Race Results");
-        jFrame1.setMinimumSize(new java.awt.Dimension(631, 858));
+        jFrame1.setMinimumSize(new java.awt.Dimension(638, 910));
+        jFrame1.setPreferredSize(new java.awt.Dimension(638, 910));
         jFrame1.setResizable(false);
         jFrame1.addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -106,6 +107,8 @@ public class Program extends javax.swing.JFrame {
         raceresults.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         raceresults.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
                 {null, null, null, null, null, null},
                 {null, null, null, null, null, null},
                 {null, null, null, null, null, null},
@@ -181,19 +184,19 @@ public class Program extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(raceresults, javax.swing.GroupLayout.DEFAULT_SIZE, 624, Short.MAX_VALUE)
                 .addContainerGap())
-            .addGroup(jFrame1Layout.createSequentialGroup()
-                .addGap(280, 280, 280)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrame1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(276, 276, 276))
         );
         jFrame1Layout.setVerticalGroup(
             jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jFrame1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(raceresults, javax.swing.GroupLayout.PREFERRED_SIZE, 755, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(raceresults, javax.swing.GroupLayout.PREFERRED_SIZE, 806, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         if (raceresults.getColumnModel().getColumnCount() > 0) {
@@ -1061,7 +1064,6 @@ public class Program extends javax.swing.JFrame {
         if(Integer.parseInt(partes[1]) > totalraces) champStatus.setText("SEASON FINISHED");
         simulateButton.setEnabled(false);
         nextRaceButton.setEnabled(false);
-        System.out.println(Integer.parseInt(partes[1]) + " " + totalraces);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

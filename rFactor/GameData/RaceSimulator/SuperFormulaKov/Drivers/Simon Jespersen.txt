@@ -2,5 +2,5 @@ Name = Simon Jespersen
 Number = 5
 Nationality = DEN
 Team = JM43 Racing Academy Rank 2
-Performance = 36.47 >> 60.43 >> 2.99 >> 0.09 >> 0.02
+Performance = 32.47 >> 64.43 >> 2.99 >> 0.09 >> 0.02
 AvgCrash = 4.41

@@ -1,0 +1,2 @@
+Name = USA MotoTeam Rank 1
+Reliability = 4
