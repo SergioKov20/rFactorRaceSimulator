@@ -78,7 +78,6 @@ public class Program extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         progressBar = new javax.swing.JProgressBar();
         simulateButton = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
         simulationText = new javax.swing.JLabel();
         nextRaceButton = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
@@ -95,7 +94,6 @@ public class Program extends javax.swing.JFrame {
 
         jFrame1.setTitle("rFactor Race Simulator v1.0 - Race Results");
         jFrame1.setMinimumSize(new java.awt.Dimension(638, 910));
-        jFrame1.setPreferredSize(new java.awt.Dimension(638, 910));
         jFrame1.setResizable(false);
         jFrame1.addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -219,10 +217,6 @@ public class Program extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("© 2018 Sergio Rodríguez");
-
         simulationText.setText("Simulation in progress...");
 
         nextRaceButton.setText("Update");
@@ -284,8 +278,6 @@ public class Program extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(nextRaceButton, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(19, 19, 19))
@@ -357,8 +349,7 @@ public class Program extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(nextRaceButton, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2))
+                    .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18))
         );
 
@@ -905,6 +896,7 @@ public class Program extends javax.swing.JFrame {
                 }
                 else urlgame += (partesurl[i] + '/');
             }
+            else urlgame += '/';
             ++i;
         }
         
@@ -1077,7 +1069,6 @@ public class Program extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JButton nextRaceButton;
