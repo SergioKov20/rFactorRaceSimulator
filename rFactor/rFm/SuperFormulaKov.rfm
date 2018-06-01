@@ -17,8 +17,8 @@ Season = SuperFormulaKov
 {
   FullSeasonName = SuperFormulaKov SLDS Test Season
   Vehicle Filter = SF2015
-  Max Opponents = 27
-  Min Championship Opponents = 27
+  Max Opponents = 29
+  Min Championship Opponents = 29
 
   SceneOrder
   {
