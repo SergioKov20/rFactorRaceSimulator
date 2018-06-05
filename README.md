@@ -6,6 +6,8 @@ IMPORTANTE
 2) Colocar la carpeta rFactor dentro del directorio en el que se encuentre instalado rFactor.
 3) StartSimulator.jar inicia el simulador (Requiere Java en el PC)
 
+(Si no se va a instalar rFactor, se puede probar la funcionalidad simplemente extrayendo todo en un directorio a gusto e iniciando el programa, los archivos modificados son los que se pueden ver en la presentación)
+
 
 EXTRA
 -----
