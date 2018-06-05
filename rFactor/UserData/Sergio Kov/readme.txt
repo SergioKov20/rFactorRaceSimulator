@@ -1,1 +1,3 @@
-Para resetear un campeonato, borra el campeonato acabado, y copia, pega y renombra el backup al nombre del campeonato
+SI LA TEMPORADA SE ACABA Y QUIERES EMPEZAR DE NUEVO: 
+
+RENOMBRAR EL ARCHIVO BACKUP COMO SE LLAMA EL ORIGINAL (Y BORRAR ANTES EL ORIGINAL)

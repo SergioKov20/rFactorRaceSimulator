@@ -1,2 +1,0 @@
-Name = LaCrew Massi Racing Rank 3
-Reliability = 9.2

@@ -1,6 +1,0 @@
-Name = Josh Herrin
-Number = 2
-Nationality = USA
-Team = USA MotoTeam Rank 1
-Performance = 55.12 >> 53.54 >> 1.30 >> 0.03 >> 0.01
-AvgCrash = 10.45

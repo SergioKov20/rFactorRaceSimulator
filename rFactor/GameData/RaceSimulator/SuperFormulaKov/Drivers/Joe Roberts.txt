@@ -1,6 +1,0 @@
-Name = Joe Roberts
-Number = 27
-Nationality = USA
-Team = USA MotoTeam Rank 1
-Performance = 57.22 >> 51.44 >> 1.30 >> 0.03 >> 0.01
-AvgCrash = 5.26

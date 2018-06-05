@@ -1,0 +1,6 @@
+Name = Luis Mesa
+Number = 88
+Nationality = ESP
+Team = Champs Junior Team Rank 3
+Performance = 1.7 >> 24.95 >> 68.65 >> 5.5 >> 0.20
+AvgCrash = 5.75
